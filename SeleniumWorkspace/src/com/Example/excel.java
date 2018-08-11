@@ -11,20 +11,19 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.testng.annotations.Test;
 
 public class excel 
 {
 	@Test
 	public void afrin() throws EncryptedDocumentException, InvalidFormatException, IOException
 	{
-		String path = "E:\\TE2\\actitime\\excel\\log.xlsx";
+		String path = "C:\\Users\\Dell\\SeleniumWorkspace\\SeleniumWorkspace\\excel\\log.xlsx";
 		FileInputStream file = new FileInputStream(path);
 		Workbook book = WorkbookFactory.create(file);
 		Sheet sheet = book.getSheet("sheet1");
 		Row row = sheet.getRow(0);
 		Cell cell = row.getCell(0);
-		double str = cell.getNumericCellValue();
+		 String str = cell.getStringCellValue();
 		System.out.println(str);
 		
 		
