@@ -1,6 +1,7 @@
 package com.Actitime.test;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.Actitime.pom.ActitimeLoginPage;
 import com.Actitime.pom.BasePage;

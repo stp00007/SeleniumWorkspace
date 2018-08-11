@@ -1,5 +1,6 @@
 package com.Example;
 
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.io.IOException;
 
@@ -24,8 +25,8 @@ public class fb
 //		String val = cell.getStringCellValue();
 //		System.out.println(val);
 		
-	 Sheet val = WorkbookFactory.create(file).getSheet("sheet1");
-		 CellAddress str = val.getActiveCell();
+	    Sheet val = WorkbookFactory.create(file).getSheet("sheet1");
+		CellAddress str = val.getActiveCell();
 		System.out.println(str);
 	}
 }

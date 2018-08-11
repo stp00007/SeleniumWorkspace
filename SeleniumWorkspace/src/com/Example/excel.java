@@ -1,5 +1,6 @@
 package com.Example;
 
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.io.IOException;
 

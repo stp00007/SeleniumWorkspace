@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Actitime.test.TestActitimeLogin">
+        <methods>
+          <include name="postcondition"/>
+          <include name="Test"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.Actitime.test.TestActitimeLogin -->
+      <class name="com.Actitime.test.TestCreateBilling">
+        <methods>
+          <include name="test"/>
+          <include name="postcondition"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.Actitime.test.TestCreateBilling -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
